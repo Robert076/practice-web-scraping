@@ -10,3 +10,5 @@ soup = bs4.BeautifulSoup(result.text, "lxml")
 print(soup.select('p')[0])
 
 print(soup.select('title'))
+
+print(soup.select('.class')) #selects all elements with class 'class'
